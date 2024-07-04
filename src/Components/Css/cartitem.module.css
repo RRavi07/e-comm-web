@@ -1,0 +1,105 @@
+.cartCard {
+    /* background-color: #fff; */
+    padding: 5px;
+    height: fit-content;
+    width: 600px;
+    border-bottom: 2px solid rgba(93, 93, 93, 0.641);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image img {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.description {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.stock {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quantity select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.delete button,
+.seeMore button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.delete button {
+    background: none;
+    color: #0724e1;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.delete button:hover {
+    color: #000000;
+
+}
+
+.seeMore button {
+    background: none;
+    color: #0724e1;
+    padding: 0;
+
+}
+
+.seeMore button:hover {
+    color: #000000;
+}
+
+.price {
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.SPrice{
+   text-align: right;
+}
+.subtotal {
+    color: #555;
+}
+
+.subtotal span {
+    font-size: 0.8em;
+}

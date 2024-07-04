@@ -1,0 +1,16 @@
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 88%;
+    margin: -275px auto 0px auto;
+}
+
+.box {
+    width: calc(25% - 20px); /* 25% width for each box with a gap of 20px between them */
+    margin-bottom: 20px; /* Space between rows */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}

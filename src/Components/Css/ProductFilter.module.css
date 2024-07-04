@@ -1,0 +1,37 @@
+.container {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.553) 0px 0px 4px;
+    background-image: linear-gradient(to right, rgba(226, 229, 230, 0.815), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    width: 250px;
+    padding: 20px;
+    margin: 35px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filterGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input,
+.select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.checkboxGroup {
+    display: flex;
+    padding: 3px;
+
+}

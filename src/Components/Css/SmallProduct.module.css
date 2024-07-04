@@ -1,0 +1,128 @@
+    /* SmallProduct.module.css */
+    .container {
+        /* background-color: rgba(185, 185, 185, 0.34); */
+        /* border: 2px solid rgba(0, 0, 0, 0.348); */
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.553) 0px 0px 4px;
+        overflow: hidden;
+        width: 193px;
+        height: fit-content;
+        text-align: left;
+        padding: 5px 5px 0px 5px;
+        display: block;
+        margin: 7px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .content {
+        position: relative;
+        bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0%;
+
+    }
+
+    .image {
+        /* border: 2px solid red; */
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image img {
+        max-height: 150px;
+        max-width: 65%;
+        border-radius: 10px;
+    }
+
+    .image img:hover {
+        max-height: 160px;
+        max-width: 69%;
+        transition-duration: 0.2s;
+    }
+
+    .name {
+        padding: 0px;
+        color: #333;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .name-n {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .rating {
+        color: #ffd700;
+        margin: -2px 0;
+    }
+
+    .price {
+        font-size: 1.2em;
+        color: #333;
+        margin: -3px 0;
+    }
+
+    .price del {
+        color: #999;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .price p {
+        display: inline;
+    }
+
+    .price p:nth-of-type(2) {
+        font-size: 12px;
+        padding-left: 7px;
+    }
+
+    .emi {
+        color: #4CAF50;
+        margin: 5px 0;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .delivery {
+        margin: 5px 0;
+        color: #333;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(130, 130, 130);
+    }
+
+    .delivery h4 {
+        margin: 3px 0;
+    }
+
+    .btn button {
+        background-color: #4040408c;
+        /* background-color: #0000008c; */
+        color: #000000;
+        border: none;
+        padding: 6px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 0.9em;
+        width: 193px;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .btn button:hover {
+        background-color: #000000a9;
+        color: white;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 0rem;
+    }
+
+    /* Add a new class for the product container in the ProductPage */

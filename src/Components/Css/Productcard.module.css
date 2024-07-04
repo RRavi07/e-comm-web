@@ -1,0 +1,242 @@
+.main {
+    display: flex;
+    /* border: 2px solid rgb(245, 242, 242); */
+    border-radius: 8px;
+    width: fit-content;
+    margin: 20px auto;
+    /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.5)); */
+    /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.219)); */
+}
+
+.productContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 2px solid #e7e4e4;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(201, 201, 201, 0.158);
+    max-width: fit-content;
+    margin: 10px;
+    /* margin: 80px auto 0px auto; */
+}
+
+.productImage img {
+    width: auto;
+    max-height: 450px;
+    transition: transform 0.3s ease;
+    margin: 8% 20px 21% 20px;
+    border-radius: 12px;
+}
+
+.productImage img:hover {
+    transform: scale(1.1);
+}
+
+.productInfo {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.productInfo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.productInfo .price {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+
+.productInfo .originalPrice {
+    font-size: 16px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.productInfo .ratings {
+    margin-top: 10px;
+}
+
+.productInfo .ratings .rating {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.productInfo .ratings .reviews {
+    font-size: 14px;
+    color: #888;
+}
+
+.productInfo .buttons {
+    margin-top: 20px;
+}
+
+.productInfo .buttons button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productInfo .buttons .addToCart {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.productInfo .buttons .addToCart:hover {
+    background-color: #008b05;
+    color: #000000;
+}
+
+.productInfo .buttons .buyNow {
+    background-color: #f44336;
+    color: white;
+}
+
+.productInfo .buttons .buyNow:hover {
+    background-color: #e20f00fa;
+    color: rgb(0, 0, 0);
+}
+
+.productInfo .offers {
+    margin-top: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+}
+
+.productInfo .offers h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.productInfo .offers ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productInfo .offers ul li {
+    margin-bottom: 5px;
+    width: 150px;
+    border: 2px solid rgba(230, 224, 149, 0.767);
+    border-radius: 12px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.orderCard {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 10px;
+    width: 260px;
+    /* background-color: #fff; */
+    background-image: linear-gradient(to right, rgba(230, 226, 226, 0.815), rgb(255, 255, 255));
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orderPrice {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.orderTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007185;
+    margin-bottom: 8px;
+}
+
+.orderDetails {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.orderDetails p {
+    margin: 4px 0;
+}
+
+.orderDetails .location {
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.orderDetails .stock {
+    font-weight: bold;
+    color: green;
+}
+
+.orderQuantity {
+    margin-bottom: 16px;
+}
+
+.orderQuantity select {
+    padding: 4px;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.orderButtonYellow {
+    background-color: #FFD700;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.orderButtonYellow:hover {
+    background-color: #FFBF00;
+}
+
+.orderButtonOrange {
+    background-color: #FF4500;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.orderButtonOrange:hover {
+    background-color: #E63900;
+}
+
+.orderSecure {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.orderSecure i {
+    margin-right: 4px;
+}
+
+.orderGift {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.orderGift input {
+    margin-right: 4px;
+}
+
+.orderWishlist {
+    font-size: 14px;
+    color: #007185;
+}

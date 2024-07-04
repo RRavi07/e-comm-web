@@ -1,0 +1,85 @@
+.main {
+    position: relative;
+    top: 60px;
+    margin: 20px;
+    background-color: #fffcfc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 100vh;
+}
+
+.heading {
+    color: rgb(3, 11, 68);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0px 10px 115px;
+}
+
+.cartContainer {
+   
+    display: flex;
+    
+    justify-content: center;
+}
+
+.cartItems {
+    margin-bottom: 20px;
+}
+
+.cartItem {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.emptyCart {
+    font-size: 18px;
+    color: #666;
+}
+
+.tableContainer {
+    margin-top: 20px;
+}
+
+
+.styledTable {
+    width: 30%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 55px;
+    width: 400px;
+    margin: 0px 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.styledTable th,
+.styledTable td {
+    padding: 8px;
+    text-align: left;
+}
+
+.styledTable th {
+    color: #5e5e5e;
+}
+
+.highlightedCell {
+    color: green;
+}
+
+.orderButton {
+    background-color: rgb(253, 110, 0);
+    border: none;
+    border-radius: 8px;
+    padding: 4px 10px;
+    color: white;
+}
+
+.orderButton:hover {
+    background-color: rgb(255, 149, 0);
+}
+.login{
+    height: 100vh;
+}
