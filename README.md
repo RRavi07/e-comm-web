@@ -1,6 +1,3 @@
-Here’s a customized Git description for your project, integrating both your backend and frontend setup:
-
----
 
 # Project Overview
 
