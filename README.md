@@ -3,6 +3,12 @@
 
 This project contains a React frontend and an Express backend. The backend is located in the `backend` folder inside the main project directory. To start the project, follow the steps below.
 
+![Screenshot 2024-10-08 091352](https://github.com/user-attachments/assets/30c30fb0-1a37-4d4d-a939-6958e7c16154)
+![Screenshot 2024-10-08 091423](https://github.com/user-attachments/assets/03238741-ea1d-43ac-8b32-3d30ed1bce12)
+![Screenshot 2024-10-08 091503](https://github.com/user-attachments/assets/2e9dc9ce-97e0-4b1a-97fc-a6cf8aa6d463)
+![Screenshot 2024-10-08 091625](https://github.com/user-attachments/assets/fe180624-9222-4de6-a4f0-d7c41371381c)
+![Screenshot 2024-10-08 091653](https://github.com/user-attachments/assets/4490d783-0459-4953-8e3d-32bb37e0eea6)
+
 ## Prerequisites
 
 Before running the project, make sure to install the necessary Node.js modules in both the main directory and the `backend` folder.
